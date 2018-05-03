@@ -1,0 +1,169 @@
+﻿/*Nellie's Nursery media query sheet*/
+
+/*Screen resolution breakpoints*/
+@media only screen and (min-width: 1100px) and (max-width: 1170px) {
+    .button {
+        margin-top: 3%;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+    .menu {
+        margin-top: 5%;
+    }
+
+    .button {
+        width: 100px;
+        height: 45px;
+        font-size: 12px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .button:hover {
+        font-size: 13px;
+    }
+
+    #textcontainer {
+        width: 90%;
+    }
+}
+
+/*Display bottom menu, make font smaller, move feature image down the page*/
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    p1 {
+        font-size: 20px;
+    }
+
+    #header {
+        position: absolute;
+    }
+
+    .menu {
+        visibility: hidden;
+    }
+
+    #featureimage {
+        top: 0;
+        padding-top: 15%;
+    }
+
+    #textcontainer {
+        width: 95%;
+    }
+
+    .bottommenu {
+        visibility: visible;
+        text-align: center;
+    }
+
+    .button {
+        width: 90px;
+        height: 45px;
+        font-size: 12px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .button:hover {
+        font-size: 13px;
+     }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    p1 {
+        font-size: 20px;
+    }
+
+    .menu {
+        visibility: hidden;
+    }
+
+    #featureimage {
+        top: 0;
+        padding-top: 25%;
+    }
+
+    #textcontainer {
+        width: 95%;
+    }
+
+    #groupicons { /*applicable only to 'groups' page*/
+        width: 100%;
+    }
+
+    .bottommenu {
+        visibility: visible;
+        text-align: center;
+    }
+
+    .button {
+        width: 55px;
+        height: 45px;
+        font-size: 12px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .button:hover {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    p1 {
+        font-size: 20px;
+    }
+
+    #header {
+        position: absolute;
+    }
+
+    .menu {
+        visibility: hidden;
+    }
+
+    #featureimage {
+        top: 0;
+        padding-top: 35%;
+    }
+
+    #textcontainer {
+        width: 95%;
+    }
+
+    #groupicons { /*applicable only to 'groups' page*/
+        width: 100%;
+    }
+
+    .bottommenu {
+        visibility: visible;
+        text-align: center;
+    }
+
+    .button {
+        width: 45px;
+        height: 45px;
+        font-size: 12px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .button:hover {
+       font-size: 13px;
+    }
+}
+
+
